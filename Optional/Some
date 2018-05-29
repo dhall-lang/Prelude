@@ -1,0 +1,13 @@
+{-
+Convenience function to construct an Optional containing a value.
+
+Examples:
+
+```
+./Some Natural 42 = ([ 42 ] : Optional Natural)
+
+./Some Text "foo" = ([ "foo] : Optional Text)
+```
+-}
+
+let Some = λ(a : Type) → λ(v : a) → [ v ] : Optional a in Some
