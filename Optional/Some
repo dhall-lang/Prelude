@@ -4,9 +4,9 @@ Convenience function to construct an Optional containing a value.
 Examples:
 
 ```
-./Some Natural 42 = ([ 42 ] : Optional Natural)
+./Some Natural 42 = [ 42 ] : Optional Natural
 
-./Some Text "foo" = ([ "foo" ] : Optional Text)
+./Some Text "foo" = [ "foo" ] : Optional Text
 ```
 -}
 
