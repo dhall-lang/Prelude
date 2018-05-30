@@ -1,0 +1,13 @@
+{-
+Convenience function to construct empty Optional values.
+
+Examples:
+
+```
+./None Natural = [] : Optional Natural
+
+./None Text = [] : Optional Text
+```
+-}
+
+let None = λ(a : Type) → [] : Optional a in None

@@ -24,4 +24,8 @@
     ./toList 
 , unzip =
     ./unzip 
+, None =
+    ./None 
+, Some =
+    ./Some 
 }
