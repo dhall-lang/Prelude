@@ -1,1 +1,3 @@
-{ kv = ./kv }
+{ keyText = ./keyText
+, keyValue = ./keyValue
+}
