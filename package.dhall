@@ -10,8 +10,8 @@
     ./Natural/package.dhall 
 , `Optional` =
     ./Optional/package.dhall 
-, `Record` =
-    ./Record/package.dhall
+, `JSON` =
+    ./JSON/package.dhall
 , `Text` =
     ./Text/package.dhall 
 }
