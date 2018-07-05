@@ -2,6 +2,8 @@
     ./Bool/package.dhall 
 , `Double` =
     ./Double/package.dhall 
+, Function =
+    ./Function/package.dhall 
 , `Integer` =
     ./Integer/package.dhall 
 , `List` =
