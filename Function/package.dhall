@@ -1,1 +1,1 @@
-{ compose = ./compose.dhall  }
+{ compose = ./compose }
