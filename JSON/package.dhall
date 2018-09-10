@@ -1,3 +1,1 @@
-{ keyText = ./keyText
-, keyValue = ./keyValue
-}
+{ keyText = ./keyText, keyValue = ./keyValue }

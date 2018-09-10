@@ -64,6 +64,6 @@ in  { provisioners =
 -}
     let Tagged
         : Type → Type
-        = λ(a : Type) → { field : Text, nesting : ./Nesting , contents : a }
+        = λ(a : Type) → { field : Text, nesting : ./Nesting, contents : a }
 
 in  Tagged
