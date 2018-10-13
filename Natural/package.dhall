@@ -16,6 +16,8 @@
     ./sum
 , show =
     ./show
+, toDouble =
+    ./toDouble
 , toInteger =
     ./toInteger
 }
