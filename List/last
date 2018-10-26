@@ -1,12 +1,1 @@
-{-
-Retrieve the last element of the list
-
-Examples:
-
-```
-./last Natural [ 0, 1, 2 ] = Some 2
-
-./last Natural ([] : List Natural) = None Natural
-```
--}
-let last : ∀(a : Type) → List a → Optional a = List/last in last
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/List/last sha256:b56d8e537a61f1faa0091426c2d1902adb31ab7713396bc71a0e946ba9058664

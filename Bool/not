@@ -1,12 +1,1 @@
-{-
-Flip the value of a `Bool`
-
-Examples:
-
-```
-./not True = False
-
-./not False = True
-```
--}
-let not : Bool → Bool = λ(b : Bool) → b == False in not
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/Bool/not sha256:36aee40cec023d7d3aaa919f932ca7764e4ec1e564c805ba3e3608fa4f47e0bf

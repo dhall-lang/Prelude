@@ -1,18 +1,1 @@
-{-
-Returns `1` if the `Optional` value is present and `0` if the value is absent
-
-Examples:
-
-```
-./length Natural (Some 2) = 1
-
-./length Natural (None Natural) = 0
-```
--}
-    let length
-        : ∀(a : Type) → Optional a → Natural
-        =   λ(a : Type)
-          → λ(xs : Optional a)
-          → Optional/fold a xs Natural (λ(_ : a) → 1) 0
-
-in  length
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/Optional/length sha256:9c86345cedbf43f0da682f7d1ed0bcdf4dcfabb7ec0d1d700e29021647070bf9

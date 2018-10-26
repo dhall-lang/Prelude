@@ -1,12 +1,1 @@
-{-
-Returns `True` if a number is `0` and returns `False` otherwise
-
-Examples:
-
-```
-./isZero 2 = False
-
-./isZero 0 = True
-```
--}
-let isZero : Natural → Bool = Natural/isZero in isZero
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/Natural/isZero sha256:62b99e7ecba8a87d94747ee85237b02a5da0cd411b9c8adf7d4ae3f6db43b7c3

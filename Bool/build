@@ -1,17 +1,1 @@
-{-
-`build` is the inverse of `fold`
-
-Examples:
-
-```
-./build (λ(bool : Type) → λ(true : bool) → λ(false : bool) → true) = True
-
-./build (λ(bool : Type) → λ(true : bool) → λ(false : bool) → false) = False
-```
--}
-    let build
-        : (∀(bool : Type) → ∀(true : bool) → ∀(false : bool) → bool) → Bool
-        =   λ(f : ∀(bool : Type) → ∀(true : bool) → ∀(false : bool) → bool)
-          → f Bool True False
-
-in  build
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/Bool/build sha256:2520a022a29a43dc4099fb74771e09eaf627763d95d24f3e5cc3b81d12acd108

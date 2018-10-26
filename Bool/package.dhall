@@ -1,17 +1,1 @@
-{ and =
-    ./and
-, build =
-    ./build
-, even =
-    ./even
-, fold =
-    ./fold
-, not =
-    ./not
-, odd =
-    ./odd
-, or =
-    ./or
-, show =
-    ./show
-}
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/Bool/package.dhall sha256:5d50ada43c61d4e0c3bc631b7a28cf7cfde1599001084ece3dee583f9dc17260

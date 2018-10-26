@@ -1,18 +1,1 @@
-{-
-The `and` function returns `False` if there are any `False` elements in the
-`List` and returns `True` otherwise
-
-Examples:
-
-```
-./and [ True, False, True ] = False
-
-./and ([] : List Bool) = True
-```
--}
-    let and
-        : List Bool → Bool
-        =   λ(xs : List Bool)
-          → List/fold Bool xs Bool (λ(l : Bool) → λ(r : Bool) → l && r) True
-
-in  and
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/Bool/and sha256:1984e05a5cbdf38412ca9fcd3934e292b1ac2076b06fc2e29a067e33b1df844d

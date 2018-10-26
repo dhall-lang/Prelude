@@ -1,12 +1,1 @@
-{-
-Convert an `Integer` to the corresponding `Double`
-
-Examples:
-
-```
-./toDouble -3 = -3.0
-
-./toDouble +2 = 2.0
-```
--}
-let toDouble : Integer → Double = Integer/toDouble in toDouble
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/Integer/toDouble sha256:4cbf8ea051688174cf2bff91edd703ebb95d6a9a51b2ae56a3ab8db33e37b58d

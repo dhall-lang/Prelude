@@ -1,12 +1,1 @@
-{-
-Retrieve the first element of the list
-
-Examples:
-
-```
-./head Natural [ 0, 1, 2 ] = Some 0
-
-./head Natural ([] : List Natural) = None Natural
-```
--}
-let head : ∀(a : Type) → List a → Optional a = List/head in head
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/List/head sha256:66e0b755419356db6a527588d76f193c2ed8bb21b5d9b4210cd64d60ade17433

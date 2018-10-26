@@ -1,17 +1,1 @@
-{-
-Builds a key-value record such that a List of them will be converted to a
-homogeneous record by dhall-to-json and dhall-to-yaml.
-Both key and value are fixed to Text.
-Take a look at `Record/keyValue` for a polymorphic version.
-
-Example:
-
-```
-./keyText "foo" "bar" = { mapKey = "foo", mapValue = "bar" }
-```
--}
-
-    let keyText =
-          λ(key : Text) → λ(value : Text) → { mapKey = key, mapValue = value }
-
-in  keyText
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/JSON/keyText sha256:915701f270ed9ca90de1c3df601993016e5d85abdb1cecb08d93ae2a76183cc9

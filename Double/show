@@ -1,13 +1,1 @@
-{-
-Render a `Double` as `Text` using the same representation as Dhall source
-code (i.e. a decimal floating point number with a leading `-` sign if negative)
-
-Examples:
-
-```
-./show -3.1 = "-3.1"
-
-./show  0.4 =  "0.4"
-```
--}
-let show : Double → Text = Double/show in show
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/Double/show sha256:f8299953257d2393c8d974b6ab24f2c066def13392fb01403478e8d6dc678333

@@ -1,12 +1,1 @@
-{-
-Returns `True` if a number is odd and returns `False` otherwise
-
-Examples:
-
-```
-./odd 3 = True
-
-./odd 0 = False
-```
--}
-let odd : Natural → Bool = Natural/odd in odd
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/Natural/odd sha256:3e4a8d80862544e38de0459d614476bfe0965d103da39e80ac8d26a502ede684

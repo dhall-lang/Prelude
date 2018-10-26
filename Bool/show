@@ -1,13 +1,1 @@
-{-
-Render a `Bool` as `Text` using the same representation as Dhall source code
-(i.e. beginning with a capital letter)
-
-Examples:
-
-```
-./show True  = "True"
-
-./show False = "False"
-```
--}
-let show : Bool → Text = λ(b : Bool) → if b then "True" else "False" in show
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/Bool/show sha256:d8e040e469a1f6c0169307c7227fb33cd8744f8a2e6cc9b23e50ccfe53766d39

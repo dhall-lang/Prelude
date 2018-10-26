@@ -1,12 +1,1 @@
-{-
-Returns the number of elements in a list
-
-Examples:
-
-```
-./length Natural [ 0, 1, 2 ] = 3
-
-./length Natural ([] : List Natural) = 0
-```
--}
-let length : ∀(a : Type) → List a → Natural = List/length in length
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/List/length sha256:f67d6056f78f6fdd87b619db4e4c70d7c7d66169b76c05cbe859f6673a812c9d

@@ -1,12 +1,1 @@
-{-
-Reverse a list
-
-Examples:
-
-```
-./reverse Natural [ 0, 1, 2 ] = [ 2, 1, 0 ] : List Natural
-
-./reverse Natural ([] : List Natural) = [] : List Natural
-```
--}
-let reverse : ∀(a : Type) → List a → List a = List/reverse in reverse
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/List/reverse sha256:3d9b1cf47a46d6472faf3fec5901c912eb602431b346195322cad4b6e562e586

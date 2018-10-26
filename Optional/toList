@@ -1,18 +1,1 @@
-{-
-Convert an `Optional` value into the equivalent `List`
-
-Examples:
-
-```
-./toList Natural (Some 1) = [ 1 ]
-
-./toList Natural (None Natural) = [] : List Natural
-```
--}
-    let toList
-        : ∀(a : Type) → Optional a → List a
-        =   λ(a : Type)
-          → λ(o : Optional a)
-          → Optional/fold a o (List a) (λ(x : a) → [ x ] : List a) ([] : List a)
-
-in  toList
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/Optional/toList sha256:037ee48c4f1689f5139d1625980b51c1067c89cf1ca319759268a93cd7f8f7aa

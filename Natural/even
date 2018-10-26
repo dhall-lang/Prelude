@@ -1,12 +1,1 @@
-{-
-Returns `True` if a number if even and returns `False` otherwise
-
-Examples:
-
-```
-./even 3 = False
-
-./even 0 = True
-```
--}
-let even : Natural → Bool = Natural/even in even
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/Natural/even sha256:6902e7ba35ea57ae29379abd6408ec6b53926af998c71d8001c84b29f0021bb4

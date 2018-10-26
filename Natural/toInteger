@@ -1,12 +1,1 @@
-{-
-Convert a `Natural` number to the corresponding `Integer`
-
-Examples:
-
-```
-./toInteger 3 = +3
-
-./toInteger 0 = +0
-```
--}
-let toInteger : Natural → Integer = Natural/toInteger in toInteger
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/Natural/toInteger sha256:cad7f31b0539d0852bbc1f709e3700bb553da1614ac4f1c058f06a7671154a57
