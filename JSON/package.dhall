@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/dhall-lang/dhall-lang/0a7f596d03b3ea760a96a8e03935f4baa64274e1/Prelude/JSON/package.dhall sha256:0417da0332ca839e08697c30aeec4385df7bb452593feca55a8f8d4e0952944f
